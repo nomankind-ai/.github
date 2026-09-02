@@ -6,6 +6,8 @@ A model is frozen at its training cutoff, but the ecosystem it runs in is not. n
 
 Continual learners read it as a sealed delta stream: every change since the last sync, in the order it was sealed, with explicit unlearn signals for facts that were overturned and a last-confirmed date on each one. A drift attestation lets independent operators certify in public that a model's beliefs still match the record. Frozen models can read the same log at inference time, one signed fact at a time.
 
+Every entry is hashed and sealed into a witnessed log, so even if the original source is later edited or destroyed, the dated, independently verified record of what it said still stands and checks offline. A takedown removes a served copy, not the proof. The same guarantee would let a record of a lost or destroyed work of art still stand on its own: a verified record that outlives the thing it describes. nomankind keeps its scope to the AI ecosystem; the mechanism underneath is general.
+
 The goal: give every AI model, on any lab, a diet it can verify and a record that keeps it honest, without trusting the company that trained it.
 
 ### Repositories
