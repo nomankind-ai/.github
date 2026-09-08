@@ -28,6 +28,10 @@ Sources rot. Labs edit their own documentation quietly, pages move, and the page
 
 That guarantee reaches well past the AI ecosystem. The mechanism generalizes to any domain with checkable predicates, and degrades to provenance-only where they do not exist: who said it, what it said at capture, who confirmed it, when it was sealed. Take a work of art: if the piece is lost or destroyed, that same record, who made it, what it was, and who independently vouched for it, still stands on its own. nomankind keeps its scope narrow, the AI ecosystem, by design. New domains come only after this one is saturated.
 
+### Read the design
+
+The [whitepaper](https://github.com/nomankind-ai/nomankind/blob/main/paper/WHITEPAPER.md) sets out the log, the evidence tiers, identity and operators, the lifecycle of an entry, incentives, and the deployment plan; the [summary](https://github.com/nomankind-ai/nomankind/blob/main/paper/SUMMARY.md) is the short version. The build is in progress in the open; the staging environment at [demo.nomankind.ai](https://demo.nomankind.ai/health) deploys from every merge to main.
+
 ### Repositories
 
 - **[nomankind](https://github.com/nomankind-ai/nomankind)**: code, entry schema, and the whitepaper. Apache-2.0.
